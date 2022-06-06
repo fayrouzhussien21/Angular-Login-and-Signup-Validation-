@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupusers": [
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 1
+    },
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 2
+    },
+    {
+      "FullName": "fayr",
+      "PhoneNumber": "0111",
+      "Email": "fayrouz@gk",
+      "Password": "897",
+      "id": 3
+    },
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 4
+    },
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 5
+    },
+    {
+      "FullName": "fayr",
+      "PhoneNumber": "9808",
+      "Email": "gjhgj@hnj",
+      "Password": "768",
+      "id": 6
+    },
+    {
+      "FullName": "fayr",
+      "PhoneNumber": "0111",
+      "Email": "jkjkjk",
+      "Password": "8980",
+      "id": 7
+    },
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 8
+    },
+    {
+      "FullName": "kjjj",
+      "PhoneNumber": "9808",
+      "Email": "gjhgj@hnj",
+      "Password": "8979",
+      "id": 9
+    },
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 10
+    },
+    {
+      "FullName": "",
+      "PhoneNumber": "",
+      "Email": "",
+      "Password": "",
+      "id": 11
+    },
+    {
+      "FullName": "kjjj",
+      "PhoneNumber": "78433",
+      "Email": "jk",
+      "Password": "576588",
+      "id": 12
+    },
+    {
+      "FullName": "fayrouz",
+      "PhoneNumber": "01154474036",
+      "Email": "Fayrouzhussien15@gmail.com",
+      "Password": "1234",
+      "id": 13
+    },
+    {
+      "FullName": "maryam ",
+      "PhoneNumber": "01158158382",
+      "Email": "jk",
+      "Password": "576588",
+      "id": 14
+    },
+    {
+      "FullName": "fayrouz",
+      "PhoneNumber": "01116555",
+      "Email": "Fayrouzhussien15@gmail.com",
+      "Password": "1234",
+      "id": 15
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

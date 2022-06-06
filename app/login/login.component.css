@@ -1,0 +1,35 @@
+.card
+{
+    margin-top: 10px;
+    border: none;
+    border-radius: 5%;
+    width: 500px;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsla(543, 30%, 20%, 3);
+    background:linear-gradient(65deg,hsla(562, 10%, 62%, 4)0%,hsla(245, 39%, 15%, 4)100%);
+}
+.card h1,
+h6{
+color: white;
+}
+label
+{
+        color: white;
+        
+}
+.form-text
+{
+    color: white;
+
+}
+button
+{
+    background-color: rgb(252, 252, 215);
+}
+a{
+    color: rgb(252, 252, 215);
+}
