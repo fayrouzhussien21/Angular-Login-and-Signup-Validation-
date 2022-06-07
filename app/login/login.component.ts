@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -15,8 +15,8 @@ public loginFormgroup!:FormGroup;
   ngOnInit(): void {
     this.loginFormgroup=this.formbuilder.group(
       {
-        Email:[''],
-        Password:['']
+        Email:['',Validators.required],
+        Password:['',Validators.required]
       }
     )
 

@@ -11,13 +11,14 @@
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
                           <input formControlName="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          <small *ngIf="loginFormgroup.hasError('required','Email')&&loginFormgroup.controls['Email'].dirty" class="text-danger">Email is required</small>
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Password</label>
                           <input formControlName="Password" type="password" class="form-control" id="exampleInputPassword1">
+                          <small *ngIf="loginFormgroup.hasError('required','Password')&&loginFormgroup.controls['Password'].dirty" class="text-danger">Password is required</small>
                         </div>
-                        <button type="submit" class="btn btn-secondery">Login</button>
+                        <button type="submit" [disabled]="!loginFormgroup.valid" class="btn btn-secondery">Login</button>
                         <br>
                         <a routerLink="/signup">New user? Click here to signup!</a>
                       </form>

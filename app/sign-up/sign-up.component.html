@@ -12,21 +12,25 @@
                         <div class="mb-3">
                             <label for="exampleInputFullname1" class="form-label">Full Name</label>
                             <input formControlName="FullName" type="Name" class="form-control" id="exampleInputFullname1" aria-describedby="emailHelp">
+                            <small *ngIf="SignUpForm.hasError('required','FullName')&&SignUpForm.controls['FullName'].dirty" class="text-danger">Name is required</small>
                           </div>
                         <div class="mb-3">
                             <label for="examplePhonenumber1" class="form-label">Phone Number</label>
                             <input formControlName="PhoneNumber" type="phonenumber" class="form-control" id="examplePhonenumber1" aria-describedby="emailHelp">
+                            <small *ngIf="SignUpForm.hasError('required','PhoneNumber')&&SignUpForm.controls['PhoneNumber'].dirty" class="text-danger">Phone Number is required</small>
                           </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
                           <input formControlName="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small *ngIf="SignUpForm.hasError('required','Email')&&SignUpForm.controls['Email'].dirty" class="text-danger">Email is required</small>
                           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Password</label>
                           <input formControlName="Password" type="password" class="form-control" id="exampleInputPassword1">
+                          <small *ngIf="SignUpForm.hasError('required','Password')&&SignUpForm.controls['Password'].dirty" class="text-danger">Password is required</small>
                         </div>
-                        <button type="Submit" class="btn btn-secondery">SignUp</button>
+                        <button [disabled]="!SignUpForm.valid" type="Submit" class="btn btn-secondery">SignUp</button>
                         <br>
                         <a routerLink="/login">Already registered? Click here to login!</a>
                       </form>
